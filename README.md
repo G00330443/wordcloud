@@ -19,13 +19,24 @@
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/URL%20and%20file.PNG)
 
+> Click Browser you can choose file from you local computer 
+
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/browser.PNG)
+
 *New Image Name
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/new%20IMageName.PNG)
 
-*Choose　Colour
+>FORMAT : image.png or image.jpg or image.gif
+
+*Choose　Color
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/Colour%20Choose.PNG)
+
+>Click Button to jump to choose page then choose color --> click OK --> this button will be setted foreground color
+
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/colour.PNG)
+
 
 *Setting Angle
 
