@@ -35,10 +35,10 @@
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/backgroungChoose.PNG)
 
-*Start this Program
-
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/start.PNG)
-
 *Setting Font
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/fontSetting.PNG)
+
+*Start this Program
+
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/start.PNG)
