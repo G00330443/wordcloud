@@ -10,3 +10,5 @@
 * Can choose angle to generate graph.
 
 ## App interface 
+
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/%E6%8D%95%E8%8E%B7.PNG)
