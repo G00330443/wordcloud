@@ -15,7 +15,7 @@
 
 ##Functions
 
-*Input File Or URL Address
+* Input File Or URL Address
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/URL%20and%20file.PNG)
 
@@ -23,13 +23,13 @@
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/browser.PNG)
 
-*New Image Name
+* New Image Name
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/new%20IMageName.PNG)
 
 >FORMAT : image.png or image.jpg or image.gif
 
-*Choose　Color
+* Choose　Color
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/Colour%20Choose.PNG)
 
@@ -38,18 +38,18 @@
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/colour.PNG)
 
 
-*Setting Angle
+* Setting Angle
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/angleSetting.PNG)
 
-*Choose Background
+* Choose Background
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/backgroungChoose.PNG)
 
-*Setting Font
+* Setting Font
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/fontSetting.PNG)
 
-*Start this Program
+* Start this Program
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/start.PNG)
