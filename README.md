@@ -55,28 +55,28 @@
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/start.PNG)
 
 ## Picture i made 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/Rabbitdsd.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/Rabbitdsd.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/Rectangle.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/Rectangle.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/Shark.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/Shark.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/catsxz.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/catsxz.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/chicken4.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/chicken4.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/cokzzze.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/cokzzze.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/cricle1.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/cricle1.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/diaosu1.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/diaosu1.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/dog1.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/dog1.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/match1.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/match1.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/name sss.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/name sss.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/test5.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/test5.png)
 
->![image](https://github.com/G00330443/wordcloud/blob/master/Images/triangles.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/triangles.png)
