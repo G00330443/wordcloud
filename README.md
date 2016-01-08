@@ -53,3 +53,7 @@
 * Start this Program
 
 >![image](https://github.com/G00330443/wordcloud/blob/master/Images/start.PNG)
+
+## Picture i made 
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/start.PNG)
+>![image](https://github.com/G00330443/wordcloud/blob/master/Images/start.PNG)>![image](https://github.com/G00330443/wordcloud/blob/master/Images/start.PNG)
