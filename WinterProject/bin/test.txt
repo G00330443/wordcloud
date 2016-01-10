@@ -1,0 +1,72 @@
+The k-means clustering algorithm has a long history and a
+proven practical performance, however it does not scale to
+clustering millions of data points into thousands of clusters
+in high dimensional spaces. The main computational bottleneck
+is the need to recompute the nearest centroid for every
+data point at every iteration, a prohibitive cost when the
+number of clusters is large. In this paper we show how to
+reduce the cost of the k-means algorithm by large factors by
+adapting ranked retrieval techniques. Using a combination
+of heuristics, on two real life data sets the wall clock time
+per iteration is reduced from 445 minutes to less than 4, and
+from 705 minutes to 1.4, while the clustering quality remains
+within 0.5% of the k-means quality.
+The key insight is to invert the process of point-to-centroid
+assignment by creating an inverted index over all the points
+and then using the current centroids as queries to this index
+to decide on cluster membership. In other words, rather
+than each iteration consisting of ¡°points picking centroids¡±,
+each iteration now consists of ¡°centroids picking points¡±.
+This is much more efficient, but comes at the cost of leaving
+some points unassigned to any centroid. We show experimentally
+that the number of such points is low and thus
+they can be separately assigned once the final centroids are
+decided. To speed up the computation we sparsify the centroids
+by pruning low weight features. Finally, to further reduce
+the running time and the number of unassigned points,
+we propose a variant of the WAND algorithm that uses the
+results of the intermediate results of nearest neighbor computations
+to improve performance.
+?Work done while the authors were at Yahoo! Research
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than
+ACM must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+WSDM¡¯14, February 24¨C28, 2014, New York, New York, USA.
+Copyright 2014 ACM 978-1-4503-2351-2/14/02 ...$15.00.
+http://dx.doi.org/10.1145/2556195.2556260 .
+Categories and Subject Descriptors
+H.3.3 [Information Search and Retrieval]: Clustering
+Keywords
+k-means;WAND
+1. INTRODUCTION
+The web abounds in high-dimensional ¡°big¡± data: for example,
+collections such as web pages, web users, search clicks,
+and on-line advertising transactions. A common way to mitigate
+Bellman¡¯s infamous ¡°curse of dimensionality¡± [9] is to
+cluster these items: for example, classifying users according
+to their interests and demographics. Among popular
+approaches to clustering, the classic k-means algorithm remains
+a standard tool of practitioners despite its poor theoretical
+convergence properties [4, 34]. However, when clustering
+n data points into k clusters, each iteration of the
+k-means method requires O(kn) distance calculations, making
+it untenable for clustering scenarios requiring a partition
+of millions of points each with hundreds of non-null coordinates
+into thousands of clusters. While parallel programming
+techniques alleviate this cost by distributing the computation
+across many machines, with web scaled datasets,
+even massively parallelized implementation based on Hadoop
+(e.g. [16]) might take thousands of CPU-hours to converge
+on current hardware.
+Approaches optimizing the k-means running time generally
+fall into two categories: Some assume that the data is
+contained in a low dimensional space and use kd-trees and
+other geometric data structures to reduce the number of
+distance computations [21, 28, 29]; Others (e.g. [19, 30])
+assume that the number of points per cluster is large, and
+subsample the data to deal with scale. Unfortunately when
+both the data dimensionality is high and the average number

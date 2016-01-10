@@ -1,0 +1,100 @@
+earch query of approximately 3 words.
+The main intuition behind the WAND algorithm (presented
+in Algorithm 1) is to use an upper bound of the
+similarity contribution of each term to eliminate documents
+that are too dissimilar from the query to make it into the
+top-` list. WAND works by keeping one pointer called a
+cursor for each of the query terms (dimensions) that points
+at a document in the corresponding posting list. During the
+evaluation, the algorithm repeatedly choses a cursor to be
+moved, and advances this cursor as far as possible in order
+to avoid examining unnecessary documents. To find the optimal
+cursor and improve the efficiency, the cursors are kept
+sorted by the DID they point to.ach term t ¡Ê T, WAND first
+all documents in the posting list of t. UBt is query independent
+and is computed and stored during the index building
+phase at no extra cost. Next, all cursors are initialized by
+pointing at the first posting in their corresponding posting
+lists (the one with the minimum DID). The outer loop of theThe k-means clustering algorithm has a long history and a
+proven practical performance, however it does not scale to
+clustering millions of data points into points into points into points into points into points into points into points into thoach term t ¡Ê T, WAND first
+all documents in the posting list of t. UBt is query independent
+and is computed and stored during th points into points into points intoing posting
+lists (the one with the minimum DID). The outer loop of theThe k-means clustering algorithm has a long history and a
+proven practical performance, however it does nong th points into points into points intoing posting
+lists (the one with the minimum DID). The outer loop of theThe k-means clustering algorithm has a long history and a
+proven practical performance, however it does nong th points into points into points intoing posting
+lists (the one with the minimum DID). The outer loop of theThe k-means clustering algorithm has a long history and a
+proven practical performance, however it does nong th points into points into points intoing posting
+lists (the one with the minimum DID). The outer loop of theThe k-means clustering algorithm has a long history and a
+proven practical performance, however it does nong th points into points into points intoing posting
+lists (the one with the minimum DID). The outer loop of theThe k-means clustering algorithm has a long history and a
+proven practical performance, however it does not scale to
+clustering millions of data points into tho
+At initialization time, for each term t ¡Ê T, WAND first
+all documents in the posting list of t. UBt is query independent
+and is computed and stored during the index building
+phase at no extra cost. Next, all cursors are initialized by
+pointing at the first posting in their corresponding posting
+lists (the one with the minimum DID). The outer loop of theThe k-means clustering algorithm has a long history and a
+proven practical performance, however it does not scale to
+clustering millions of data points into thousands of clusters
+in high dimensional spaces. The main computational bottleneck
+is the need to recompute the nearest centroid for every
+data point at every iteration, a prohibitive cost when the
+number of clusters is large. In this paper we show how to
+reduce the cost of the k-means algorithm by large factors by
+adapting ranked retrieval techniques. Using a combination
+of heuristics, on two real life data sets the wall clock time
+per iteration is reduced from 445 minutes to less than 4, and
+from 705 minutes to 1.4, while the clustering quality remains
+within 0.5% of the k-means quality.
+The key insight is to invert the process of point-to-centroid
+assignment by creating an inverted index over all the points
+and then using the current centroids as queries to this index
+to decide on cluster membership. In other words, rather
+than each iteration consisting of ¡°points picking centroids¡±,
+each iteration now consists of ¡°centroids picking points¡±.
+This is much more efficient, but comes at the cost of leaving
+some points unassigned to any centroid. We show experimentally
+that the number of such points is low and thus
+they can be separately assigned once the final centroids are
+decided. To speed up the computation we sparsify the centroids
+by pruning low weight features. Finally, to further reduce
+the running time and the number of unassigned points,
+we propose a variant of the WAND algorithm that uses the
+algorithm repeatedly retrieves the next (in order of DID)
+document that qualifies for the top-` list.
+235
+During the evaluation, the algorithm maintains a heap of
+highest scoring top-` documents among those examined so
+far. The minimum score in this heap, or the score of the
+current `-th best result, is denoted by ¦È. The key property
+of WAND is that it does not fully score every document,
+but skips the ones that have no chance in making it in the
+top-` list. Intuitively, if we can determine that the score of
+a an unexamined document cannot be higher than ¦È, then
+we can forego any further evaluation of this document and
+skip to the next DID that has a chance at success. The first
+document that has the property of having upper bound of
+its score higher than ¦È is known as the pivot document. We
+present the pivot finding subroutine as Algorithm 2.
+The subroutine relies on two helper functions. The first,
+findPivotTerm, returns the earliest term, t
+?
+, in the list, such
+that the sum of the score upper bounds, UBt for all terms
+t preceding t
+?
+is at least ¦È. Given the pivot document, we
+then check whether the cursors in the first and t
+?
+-th position
+point to the same document. Since the cursors are sorted
+by DID, if the two cursors point to different documents, the
+one pointed to by the first cursor cannot possibly make it
+to the top-` list. and we advance the cursors (Lines 15-18).
+The function PickCursor selects a cursor to advance to the
+first document with DID at least d
+?
+(Line 17)

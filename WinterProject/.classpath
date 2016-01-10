@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/lambdaj-2.3.jar/lambdaj-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/jsoup-1.6.1.jar/jsoup-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-commons.jar/apache-commons.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/junit-3.7.0.jar/junit-3.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/hamcrest-all-1.0.jar/hamcrest-all-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/lambdaj-2.4-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/junit-1.3.jar/junit-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/commons-lang3-3.4-bin/commons-lang3-3.4/commons-lang3-3.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/commons-lang3-3.4-bin/commons-lang3-3.4/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-api-2.0.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-api-2.0.2-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-core-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-core-2.0.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-core-2.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-core-2.0.2-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-1.2-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-1.2-api-2.0.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wang/Downloads/apache-log4j-2.0.2-bin/apache-log4j-2.0.2-bin/log4j-1.2-api-2.0.2-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
